@@ -1,1 +1,108 @@
-# AI-AGENTIC-KG-EXTRACTOR
+# AI-AGENTIC Knowledge Graph Extractor
+
+## Overview
+
+AI-AGENTIC Knowledge Graph Extractor is a Streamlit-based application designed for extracting and visualizing knowledge graphs from PDF documents. The project leverages large language models (LLMs) to extract entities and relationships, generating structured knowledge representations in JSON-LD format.
+
+## Features
+
+- Upload PDFs: Extract text using PyPDF2.
+- Customizable Prompts: Upload text prompts for entity and relationship extraction.
+- Chunking: Break down large text into manageable parts for better LLM processing.
+- Entity & Relationship Extraction: Automatically identify and categorize materials, processes, properties, and relationships.
+- JSON-LD Generation: Output structured JSON-LD files that are ready for visualization.
+- API Integration: Supports both OpenAI and Groq APIs for LLM functionality.
+- Chain of Thought: Provide better response from LLM
+
+
+## File Structure
+
+```
+.
+├── Prompts/                       # Folder containing prompt templates
+│   ├── Prompt Relationship extraction.txt
+│   ├── Prompt entity extraction.txt
+│   ├── prompt json.txt
+├── Sample/                        # Example input and output files
+│   ├── Sample.pdf                 # Example PDF file for processing
+├── README.md                      # Documentation
+├── Requirement                    # Requirements file
+├── mini.py                        # Main application script
+├── kgvis.py                       # Knowledge graph visualization module
+```
+
+## Requirements
+
+- Python 3.8+
+- Libraries:
+  - streamlit
+  - PyPDF2
+  - langchain-text-splitters
+  - openai
+  - chardet
+  - groq
+
+To install dependencies, use:
+```bash
+pip install -r Requirement
+```
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/AI-AGENTIC-KG-EXTRACTOR.git
+   cd AI-AGENTIC-KG-EXTRACTOR
+   ```
+
+2. Create a virtual environment and activate it:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install required libraries:
+   ```bash
+   pip install -r Requirement
+   ```
+
+4. Run the application:
+   ```bash
+   streamlit run mini.py
+   ```
+
+1. Upload a PDF file using the interface.
+2. Select your preferred API (OpenAI or Groq) and provide an API key.
+3. Upload prompt files for:
+   - Entity Extraction
+   - Relationship Extraction
+   - JSON-LD Generation
+4. Process the PDF to generate knowledge graphs in JSON-LD format
+
+### Example Output
+
+```json
+{
+  "@context": "http://emmo.info/emmo#",
+  "@graph": [
+    {
+      "@id": "ex:Material_1",
+      "@type": "Material",
+      "has_property": {
+        "@id": "ex:Property_1",
+        "value": "520 nm"
+      }
+    }
+  ]
+}
+```
+
+
+## Acknowledgments
+
+This project uses the EMMO Ontology for knowledge graph structuring and builds on existing research in materials science and hydrogen technologies.
+
+## Contributions
+
+Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
+
