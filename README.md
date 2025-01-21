@@ -44,10 +44,10 @@ AI-AGENTIC Knowledge Graph Extractor is a Streamlit-based application designed f
 
 To install dependencies, use:
 ```bash
-pip install -r Requirement
+pip install -r Requirement.txt
 ```
 
-## Installation
+## Installation Process
 
 1. Clone the repository:
    ```bash
