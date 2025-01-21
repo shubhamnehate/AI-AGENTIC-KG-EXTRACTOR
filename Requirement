@@ -1,1 +1,8 @@
-
+streamlit 
+PyPDF2 
+langchain 
+langchain-text-splitters 
+tiktoken 
+nltk 
+openai 
+groq
