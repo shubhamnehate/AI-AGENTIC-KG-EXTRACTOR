@@ -101,7 +101,7 @@ pip install -r Requirement.txt
 This work would not have been possible without amazing open source models and datasets, including (but not limited to):
 
 
-   - [KGVIS By Mohammad J. Eslamibidgoli] (https://scholar.google.ca/citations?user=4flM9wEAAAAJ&hl=en)
+   - [KGVIS By Mohammad J. Eslamibidgoli](https://scholar.google.ca/citations?user=4flM9wEAAAAJ&hl=en)
    - [Data-extraction by Nasrin mohammadi](https://github.com/Nasrin-mohammadi/data-extraction) 📄
    - This project uses the EMMO Ontology for knowledge graph structuring and builds on existing research in materials science and hydrogen technologies.
    - [Groq](https://groq.com) 🤖
