@@ -97,10 +97,24 @@ pip install -r Requirement.txt
 }
 ```
 
+## Thanks 🙏
+This work would not have been possible without amazing open source models and datasets, including (but not limited to):
 
-## Acknowledgments
 
-This project uses the EMMO Ontology for knowledge graph structuring and builds on existing research in materials science and hydrogen technologies.
+   - [KGVIS By Mohammad J. Eslamibidgoli] (https://scholar.google.ca/citations?user=4flM9wEAAAAJ&hl=en)
+   - [Data-extraction by Nasrin mohammadi](https://github.com/Nasrin-mohammadi/data-extraction) 📄
+   - This project uses the EMMO Ontology for knowledge graph structuring and builds on existing research in materials science and hydrogen technologies.
+   - [Groq](https://groq.com) 🤖
+   - [OpenAI](https://platform.openai.com/docs/api-reference/introduction) 🤖
+     
+
+Thank you to the authors of these tools, models, and datasets for making them available to the community!
+
+
+## Acknowledgements 💌
+Special thanks to **FZJ IET3** and the **AMI Division** for their invaluable support and guidance in this project.
+
+
 
 ## Contributions
 
