@@ -1,7 +1,7 @@
 # 🖊️ Marker Tool 
  
 > This project is a Python-based application that processes PDFs using Marker pdf and integrates deep learning using PyTorch along with language model enhancements via Groq.
-
+Please refer to [Text to PDF](https://github.com/shubhamnehate/RAG_Implementation/tree/main/PDF_to_TXT_Marker)  for implementation
 ---
 
 ## ✨ Features
