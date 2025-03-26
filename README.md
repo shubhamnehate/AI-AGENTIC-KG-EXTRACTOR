@@ -51,7 +51,7 @@ pip install -r Requirement.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/AI-AGENTIC-KG-EXTRACTOR.git
+   git clone [https://github.com/your-username/AI-AGENTIC-KG-EXTRACTOR.git](https://github.com/shubhamnehate/AI-AGENTIC-KG-EXTRACTOR.git)
    cd AI-AGENTIC-KG-EXTRACTOR
    ```
 
