@@ -63,7 +63,7 @@ pip install -r Requirement.txt
 
 3. Install required libraries:
    ```bash
-   pip install -r Requirement
+   pip install -r Requirement.txt
    ```
 
 4. Run the application:
